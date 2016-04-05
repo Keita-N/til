@@ -35,6 +35,25 @@
 |\<Ctrl> + u | 上方スクロール |
 |\<Ctrl> + d | 下方スクロール |
 
+- Scrolling relative to cursor (:h scroll-cursor)
+
+カーソル行を固定してスクロール
+
+```
+# カーソル行をコンソール先頭に移動
+z<CR> or zt 
+
+# カーソル行をコンソール中央に移動
+zz or z.
+
+# カーソル行をコンソール最下に移動
+z- or zb 
+
+# コンソールの高さを{height}行分に変更
+z{height}<CR>
+
+```
+
 - 大文字、小文字変換
 
 | command ||
