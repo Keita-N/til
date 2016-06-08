@@ -35,3 +35,8 @@ $ ping 9999 2>&1 | tee result.txt
 ```bash
 $ cd -
 ```
+
+## ローカルのファイルの内容をリモートのファイルに追記する
+```bash
+ssh <user>@<remote-host> "cat >> <remote-file-path>" < <local-file-path>
+```
